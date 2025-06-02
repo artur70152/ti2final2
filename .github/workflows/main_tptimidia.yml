@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'tptimidia'
           slot-name: 'Production'
-          package: '*.jar'
+          package: '01HelloWordSparkFramework-0.0.1-SNAPSHOT-shaded.jar'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F15E5D2503114DDA9DEFCF5BDC219878 }}
