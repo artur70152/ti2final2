@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'tptimidia'
           slot-name: 'Production'
-          package: 'target/app.jar'
+          package: 'app.jar'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F15E5D2503114DDA9DEFCF5BDC219878 }}
